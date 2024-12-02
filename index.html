@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Tomas</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/Screenshot_20241126_181714_Gallery.jpg" alt="">
+            </div>
+            <h1>Tomas Contreras</h1>
+            <h2>Full stack developer</h2>
+            <div class="redes">
+                <a href="https://www.linkedin.com/in/tomas-roberto-contreras"><i
+                        class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/contrerastomas?tab=repositories"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Tomás.</span>Tengo 21 años y cuento con una sólida experiencia trabajando en un negocio
+                familiar, lo que me ha permitido desarrollar habilidades clave como responsabilidad, compromiso y
+                trabajo en equipo. Actualmente, estoy cursando la carrera de Ingeniería en Computación en la Universidad
+                Nacional
+                de Tres de Febrero y finalizando mis estudios para la carrera de Full Stack developer en Coderhouse.
+                Mi principal objetivo es encontrar un trabajo que me brinde la oportunidad de crecer tanto en el ámbito
+                laboral como académico, al mismo tiempo que me permita continuar con mis estudios y seguir
+                desarrollándome profesionalmente.
+                Soy una persona disciplinada, proactiva y con una gran disposición para aprender. Me caracterizo por mi
+                responsabilidad y compromiso en cada tarea que realizo. Considero el trabajo como una prioridad
+                fundamental en mi día a día, lo que me motiva a esforzarme continuamente para alcanzar los mejores
+                resultados.</p>
+
+            <div class="fila">
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            19-01-2003
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            11-6625-3535
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            tomasportunato@outlook.com
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-microchip"></i>
+                            <span>tecnologia</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>AUTOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>FOTOS</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Node.js</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Git</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>81%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Figma</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>55%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Liderazgo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicacion</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Gestión del tiempo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Economia y Administracion de empresas</h4>
+                        <span class="casa">Instituto Preciosisima Sangre de Cristo.</span>
+                        <span class="fecha">2013 - 2021</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Ingenieria en Computacion</h4>
+                        <span class="casa">Universidad Nacional de Tres de Febrero</span>
+                        <span class="fecha">2023 - actualidad</span>
+                        <p>Actualemte estoy cursando el primer año.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Full Stack Developer</h4>
+                        <span class="casa">Coder House</span>
+                        <span class="fecha">2023 - actualidad</span>
+                        <p>Me encuentro cursando la segunda mitad de la carrera que seria el comienzo de Backend.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Encargado</h4>
+                        <span class="casa">Distribuidora Roberto e Hijos</span>
+                        <span class="fecha">2019 - actualidad</span>
+                        <p>Me encargo del mantenimiento del local, realizando reparaciones necesarias y asegurando el
+                            correcto funcionamiento de las instalaciones. Además, gestiono la reposicón de productos y
+                            materiales, superviso al personal, coordinando tareas y asegurando que se cumplan los
+                            estándares de calidad y eficiencia. También me ocupo de la atención al público, brindando un
+                            servicio cordial y resolviendo problemas o inquietudes, y superviso la limpieza y el orden
+                            en todas las áreas del local. Además, gestiono el contacto con proveedores, asegurando el
+                            abastecimiento continuo de productos y materiales necesarios para el funcionamiento del
+                            negocio.</p>
+
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <a href="https://contrerastomas.github.io/contrerasTomas-CoderHouse-Ecommerce/">
+                        <img src="img/mutant.png" alt="">
+                        <div class="overlay">
+                            <h3>Desarrollo web</h3>
+                            <p>Ecommerce con html5 y css3</p>
+                        </div>
+                    </a>
+
+                </div>
+                <div class="proyecto">
+                    <a href="https://triviagametc.netlify.app/">
+                        <img src="img/trivia.png" alt="">
+                        <div class="overlay">
+                            <h3>Minijuego</h3>
+                            <p>Trivia con js</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="proyecto">
+                    <a href="https://proyecto-react-tomas-contreras.vercel.app/">
+                        <img src="img/pixel.png" alt="">
+                        <div class="overlay">
+                            <h3>Desarrollo web</h3>
+                            <p>Ecommerce con react</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="proyecto">
+                    <img src="img/NodeJS-for-Backend.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Backend</h3>
+                        <p>Proximamente ...</p>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <img src="img/NodeJS-for-Backend.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Backend</h3>
+                        <p>Proximamente ...</p>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <img src="img/NodeJS-for-Backend.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Backend</h3>
+                        <p>Proximamente ..</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.linkedin.com/in/tomas-roberto-contreras"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://github.com/contrerastomas?tab=repositories"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
